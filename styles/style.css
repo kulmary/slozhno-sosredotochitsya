@@ -224,7 +224,6 @@
   color: var(--accent-color);
   font-size: var(--main-font-size);
   font-weight: var(--bold-font-weight);
-  /*width: 315px;*/
 }
 
 .main__subtitle {
