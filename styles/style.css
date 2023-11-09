@@ -5,6 +5,7 @@
   background: var(--background-image) no-repeat top center,
     var(--background-color);
   background-size: auto 668px;
+  background-attachment: fixed;
   font-family: var(--font-style);
   font-style: normal;
   line-height: 23.4px;
@@ -452,7 +453,7 @@
   }
 }
 
-@media (768<=width<1024px) {
+@media (768px <= width < 1024px) {
   .footer {
     height: 1024px;
     padding: 20px;
