@@ -9,6 +9,7 @@
   font-family: var(--font-style);
   font-style: normal;
   line-height: 23.4px;
+  color: var(--headings-text-color)
 }
 
 .header {

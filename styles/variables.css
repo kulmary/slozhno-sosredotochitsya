@@ -15,15 +15,36 @@
   --image-gap-desktope: 20px;
   --bold-font-weight: 700;
   --normal-font-weight: 400;
-  --accent-color: #ff0070;
-  --shadow-color:#FF0070;
-  --heading-color:#DB00FF;
-  --headings-text-color: #000028;
-  --main-title-color: var(--accent-color);
-  --text-color:#F1B2CE;
-  --background-color: #000028;
-  --button-color:var(--accent-color);
-  --background-image:url(../images/cover-image-dark.png);
-  --hover-color: var(--accent-color);
-  --rec-color: var(--accent-color);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #ff8dcb;
+    --heading-color: #ffc2e6;
+    --shadow-color: #FF0070;
+    --headings-text-color: #ffc2e6;
+    --text-color: #353430;
+    --main-title-color: var(--text-color);
+    --background-image: url(../images/cover-image-light.png);
+    --hover-color: rgba(255, 0, 112, 0.4);
+    --background-color: #fff1f7;
+    --button-color: #353430;
+    --rec-color: transparent;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root{
+    --accent-color: #ff0070;
+    --shadow-color:#FF0070;
+    --heading-color:#DB00FF;
+    --headings-text-color: #000028;
+    --main-title-color: var(--accent-color);
+    --text-color:#F1B2CE;
+    --background-color: #000028;
+    --button-color:var(--accent-color);
+    --background-image:url(../images/cover-image-dark.png);
+    --hover-color: var(--accent-color);
+    --rec-color: var(--accent-color);
+  }
 }

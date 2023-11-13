@@ -23,18 +23,5 @@
 
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --accent-color: #ff8dcb;
-    --heading-color: #ffc2e6;
-    --shadow-color: #FF0070;
-    --headings-text-color: #ffc2e6;
-    --text-color: #353430;
-    --main-title-color: var(--text-color);
-    --background-image: url(../images/cover-image-light.png);
-    --hover-color: rgba(255, 0, 112, 0.4);
-    --background-color: #fff1f7;
-    --button-color: #353430;
-    --rec-color: transparent;
-  }
-}
+
+
