@@ -5,7 +5,7 @@
 :root {
   --title-font-size: 116px;
   --main-font-size: 18px;
-  --font-style: 'IBM Plex Mono';
+  --font-style: 'IBM Plex Mono', sans-serif;
   --main-gap: 40px; /* отступ между header, body, footer */
   --section-gap-mobile:50px;
   --section-gap-desktope: 80px; /* отступ между секциями body*/
@@ -16,10 +16,14 @@
   --bold-font-weight: 700;
   --normal-font-weight: 400;
   --accent-color: #ff0070;
+  --shadow-color:#FF0070;
   --heading-color:#DB00FF;
   --headings-text-color: #000028;
+  --main-title-color: var(--accent-color);
   --text-color:#F1B2CE;
   --background-color: #000028;
+  --button-color:var(--accent-color);
   --background-image:url(../images/cover-image-dark.png);
   --hover-color: var(--accent-color);
+  --rec-color: var(--accent-color);
 }
