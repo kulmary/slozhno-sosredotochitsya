@@ -250,7 +250,7 @@
 
 .main__subtitle {
   font-size: var(--main-font-size);
-  color: var(--heading-text-color);
+  color: var(--headings-text-color);
   background-color: var(--accent-color);
   font-weight: var(--bold-font-weight);
   margin-top: var(--subtitle-margin-top);

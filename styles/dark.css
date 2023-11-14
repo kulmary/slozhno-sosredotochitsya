@@ -22,3 +22,19 @@
   --rec-color: var(--accent-color);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent-color: #ff0070;
+    --shadow-color: #ff0070;
+    --heading-color: #db00ff;
+    --headings-text-color: #000028;
+    --main-title-color: var(--accent-color);
+    --text-color: #f1b2ce;
+    --background-color: #000028;
+    --button-color: var(--accent-color);
+    --background-image: url(../images/cover-image-dark.png);
+    --hover-color: var(--accent-color);
+    --rec-color: var(--accent-color);
+  }
+}
+
